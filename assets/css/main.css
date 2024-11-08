@@ -2074,64 +2074,68 @@ input, select, textarea {
 		padding: 10em 0 10em 0;
 		text-align: left;
 	}
+	#about .image {
+		border-radius: 100%;
+		width: 20em;
+		height: 20em;
+		margin: 0;
+	}
+	#about .image img {
+		border-radius: 100%;
+	}
+	#about h1 {
+		margin-top: 0.35em;
+	}
 
-		#about .image {
-			border-radius: 100%;
-			width: 20em;
-			height: 20em;
-			margin: 0;
+	#about header {
+		margin-bottom: 30px;
+	}
+	
+	#about header p {
+		font-size: 1.1em !important;
+		font-weight: bold;
+	}
+	
+	#about p {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	}
+	
+		#about p a {
+			color: inherit;
 		}
-
-			#about .image img {
-				border-radius: 100%;
-			}
-
-		#about h1 {
-			margin-top: 0.35em;
+		#contact footer {
+			font-size: 0.9em;
 		}
-
-		#about header {
-			margin-bottom: 30px;
-		}
-		
-		#about header p {
-			font-size: 1.1em !important;
-			font-weight: bold;
-		}
-		
-		#about p {
-			font-size: 1.2em;
-			line-height: 1.6em;
-		}
-		
-			#about p a {
-				color: inherit;
-			}
-			#contact footer {
-				font-size: 0.9em;
-			}
 			
+	#profile, #projects {
+		padding-top: 30px;
+	}
+
 	#profile .container, #projects .container {
 		padding-top: 0px;
 		width: 800px;
 		font-weight: 500;
 	}
 
-	#profile div header {
+	#profile div header, #projects div header {
 		margin-top: 60px;
 		margin-bottom: 30px;
 	}
 
-	#profile div ul {
+	#profile div ul, #projects div ul {
 		text-align: left;
 	}
 
-	#profile div ul li b {
+	#profile div ul li b, #projects div ul li b {
 		font-weight: bold;
 	}
 
-			/* Copyright */
-			
+	#contact {
+		padding-top: 70px;
+		padding-bottom: 50px;
+	}
+
 	#copyright {
 		color: #666;
 		font-size: 1em;
@@ -2165,7 +2169,7 @@ input, select, textarea {
 		}
 
 			#copyright a:hover {
-				color: #777;
+				color: #969696;
 			}
 
 /* Large */
