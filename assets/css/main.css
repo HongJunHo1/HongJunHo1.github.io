@@ -1573,40 +1573,6 @@ input, select, textarea {
 		border: 0;
 	}
 
-/* Tables */
-
-	table {
-		width: 100%;
-	}
-
-		table.default {
-			width: 100%;
-		}
-
-			table.default tr {
-				border-top: solid 1px #eee;
-			}
-
-				table.default tr:first-child {
-					border-top: 0;
-				}
-
-			table.default td {
-				padding: 0.5em 1em 0.5em 1em;
-			}
-
-			table.default th {
-				text-align: left;
-				padding: 0.5em 1em 0.5em 1em;
-				font-weight: 600;
-				margin: 0 0 1em 0;
-			}
-
-			table.default thead {
-				background: #4f4f4f;
-				color: #fff;
-			}
-
 /* Section/Article */
 
 	section, article {
@@ -2164,19 +2130,11 @@ input, select, textarea {
 		font-weight: bold;
 	}
 
-	table, th, td {
-		border: 1px solid black;
-		border-collapse: collapse;
-		vertical-align: middle;
-		color: black;
-		padding: 7px;
-	}
-
 			/* Copyright */
 			
-			#copyright {
-				color: #666;
-				font-size: 1em;
+	#copyright {
+		color: #666;
+		font-size: 1em;
 		line-height: 1em;
 		list-style: none;
 		padding-left: 0;
